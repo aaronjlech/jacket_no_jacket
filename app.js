@@ -7,14 +7,12 @@ mongoose.Promise = require('bluebird');
 // insert mongo db to use
 // mongoose.connect('mongodb://localhost:27017/jacket');
 
-
 app.use(bodyParser.json());
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', (req, res) => {
     res.send("Hello World");
 });
-
 
 const port = 5000;
 app.listen(port, () => {
