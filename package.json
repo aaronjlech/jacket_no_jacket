@@ -1,0 +1,14 @@
+{
+  "name": "jacket_no_jacket",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.1",
+    "moment": "^2.20.1",
+    "parseurl": "^1.3.2",
+    "validator": "^9.4.1"
+  }
+}
